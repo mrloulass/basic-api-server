@@ -16,6 +16,7 @@
 
   #### - GET
 
+
     - Status Code (200)
     - JSON Data response:
       - (car) data:
@@ -52,12 +53,13 @@
 
   #### - DELETE 
 
-    - Status Code (200)
-    - Delete one (car) data on (carId)
+   - Status Code (200)
+   - Delete one (car) data on (carId)
 
 ### - /game
 
   #### - GET
+
 
     - Status Code (200)
     - JSON Data response:
@@ -95,11 +97,12 @@
 
   #### - DELETE 
 
-    - Status Code (204)
-    - Delete one (game) data on (gameId)
+   - Status Code (204)
+   - Delete one (game) data on (gameId)
 
 ## Links
 
-  - [Heroku Deploy site](https://louis-basic-api-server.herokuapp.com/)
+  - [Heroku Deploy site](https://louis-basic-api-server.herokuapp.com)
+
 
   
