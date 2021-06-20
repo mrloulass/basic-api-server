@@ -16,35 +16,40 @@
 
   #### - GET
 
-   - Status Code (200)
-   - JSON Data response:
-     - (car) data:
-       - color: STRING
-       - doors: INTEGER
+
+    - Status Code (200)
+    - JSON Data response:
+      - (car) data:
+        - name: STRING
+        - color: STRING
+        - doors: INTEGER
 
   #### - GET
 
-   - Status Code (200)
-   - JSON Data response:
-     - one (car) data on (carId):
-       - color: STRING
-       - doors: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - one (car) data on (carId):
+        - name : STRING
+        - color: STRING
+        - doors: INTEGER
         
   #### - POST
 
-   - Status Code (200)
-   - JSON Data response:
-     - Creates new (car) data:
-       - color: STRING
-       - doors: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - Creates new (car) data:
+        - name : STRING
+        - color: STRING
+        - doors: INTEGER
 
   #### - PUT
 
-   - Status Code (200)
-   - JSON Data response:
-     - Update one (car) data on (carId):
-       - color: STRING
-       - doors: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - Update one (car) data on (carId):
+        - name : STRING
+        - color: STRING
+        - doors: INTEGER
 
   #### - DELETE 
 
@@ -55,35 +60,40 @@
 
   #### - GET
 
-   - Status Code (200)
-   - JSON Data response:
-     - (game) data:
-       - type: STRING
-       - players: INTEGER
+
+    - Status Code (200)
+    - JSON Data response:
+      - (game) data:
+        - name : STRING
+        - type: STRING
+        - players: INTEGER
 
   #### - GET
 
-   - Status Code (200)
-   - JSON Data response:
-     - one (game) data on (gameId):
-       - type: STRING
-       - players: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - one (game) data on (gameId):
+        - name : STRING
+        - type: STRING
+        - players: INTEGER
         
   #### - POST
 
-   - Status Code (200)
-   - JSON Data response:
-     - Creates new (game) data:
-       - type: STRING
-       - players: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - Creates new (game) data:
+        - name : STRING
+        - type: STRING
+        - players: INTEGER
 
   #### - PUT
 
-   - Status Code (200)
-   - JSON Data response:
-     - Update one (game) data on (gameId):
-       - type: STRING
-       - players: INTEGER
+    - Status Code (200)
+    - JSON Data response:
+      - Update one (game) data on (gameId):
+        - name : STRING
+        - type: STRING
+        - players: INTEGER
 
   #### - DELETE 
 
@@ -93,5 +103,6 @@
 ## Links
 
   - [Heroku Deploy site](https://louis-basic-api-server.herokuapp.com)
+
 
   
