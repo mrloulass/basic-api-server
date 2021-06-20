@@ -17,7 +17,14 @@ const carModel = require('./car.js');
 const gameModel = require('./game.js');
 
 //this work like the express(), 
-let sequelize = new Sequelize (DATABASE_URL);
+let sequelize = new Sequelize (DATABASE_URL ,{
+    dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    }
+  }
+});
 
 //changed the sequelize object using a model
 const car = carModel(sequelize, DataTypes);
