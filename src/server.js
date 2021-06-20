@@ -14,8 +14,10 @@ const err500 = require('./error-handlers/500.js');
 
 const app = express();
 
-// hookup router's resouces
+//(json()) allow express to take json data
+app.use(express.json());
 
+// hookup router's resouces
 app.use(carRouter);
 app.use(gameRouter);
 
@@ -30,8 +32,6 @@ app.get('/person',validator,(req,res)=>{
 
 app.use(err404);
 app.use(err500);
-
-
 
 
 module.exports = {

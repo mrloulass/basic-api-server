@@ -19,6 +19,7 @@
     - Status Code (200)
     - JSON Data response:
       - (car) data:
+        - name: STRING
         - color: STRING
         - doors: INTEGER
 
@@ -27,6 +28,7 @@
     - Status Code (200)
     - JSON Data response:
       - one (car) data on (carId):
+        - name : STRING
         - color: STRING
         - doors: INTEGER
         
@@ -35,6 +37,7 @@
     - Status Code (200)
     - JSON Data response:
       - Creates new (car) data:
+        - name : STRING
         - color: STRING
         - doors: INTEGER
 
@@ -43,6 +46,7 @@
     - Status Code (200)
     - JSON Data response:
       - Update one (car) data on (carId):
+        - name : STRING
         - color: STRING
         - doors: INTEGER
 
@@ -58,6 +62,7 @@
     - Status Code (200)
     - JSON Data response:
       - (game) data:
+        - name : STRING
         - type: STRING
         - players: INTEGER
 
@@ -66,6 +71,7 @@
     - Status Code (200)
     - JSON Data response:
       - one (game) data on (gameId):
+        - name : STRING
         - type: STRING
         - players: INTEGER
         
@@ -74,6 +80,7 @@
     - Status Code (200)
     - JSON Data response:
       - Creates new (game) data:
+        - name : STRING
         - type: STRING
         - players: INTEGER
 
@@ -82,6 +89,7 @@
     - Status Code (200)
     - JSON Data response:
       - Update one (game) data on (gameId):
+        - name : STRING
         - type: STRING
         - players: INTEGER
 
@@ -92,6 +100,6 @@
 
 ## Links
 
-  - [Heroku Deploy site]()
+  - [Heroku Deploy site](https://louis-basic-api-server.herokuapp.com/)
 
   
